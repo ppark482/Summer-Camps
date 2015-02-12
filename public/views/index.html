@@ -1,3 +1,24 @@
-<section data-ng-controller="IndexController">
-	<h1>This is the home view</h1>
-</section>
+<!-- CSS controlled by css/views/index.css -->
+
+	<section data-ng-controller="IndexController">
+
+		<div id="top-image">
+			<img src="../../img/campfire-bg.jpg" alt="" />
+		</div>
+
+		<section id="intro-section">
+			<h1>{{title}}</h1>
+			<button ng-click="">SUMMER CAMP?</button>
+			<button ng-click="">PARTY PLANNER?</button>
+		</section>
+
+		<section id="intro-search-form">
+			<form ng-submit="">
+				<button type="radio">Summer Camps</button>
+				<button type="radio">Birthday Party Planners</button>
+				<input placeholder="Keyword">
+				<input placeholder="Your Zip Code">
+			</form>
+		</section>
+
+	</section> <!-- end section -->

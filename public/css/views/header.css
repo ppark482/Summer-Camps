@@ -1,0 +1,12 @@
+.fixed-nav-bar {
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+	top: 0;
+	height: 75px;
+	border-bottom: 2px solid #fff;
+}
+
+.custom-nav {
+	height: 200px;
+}

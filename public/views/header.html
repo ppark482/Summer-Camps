@@ -1,13 +1,12 @@
-<div class="navbar-inner" data-ng-controller="HeaderController">
+<div class="navbar-inner fixed-nav-bar" data-ng-controller="HeaderController">
     <ul class="nav">
         <li>
-            <a class="brand" href="/">MEAN - A Modern Stack</a>
         </li>
         <li data-ng-repeat="item in menu" data-ng-show="global.user" ui-route="/{{item.link}}" ng-class="{active: $uiRoute}">
             <a href="#!/{{item.link}}">{{item.title}}</a>
         </li>
     </ul>
-    <ul class="nav pull-right" data-ng-hide="global.authenticated">
+<!--     <ul class="nav pull-right" data-ng-hide="global.authenticated">
         <li><a href="signup">Signup</a>
         </li>
         <li class="divider-vertical"></li>
@@ -24,5 +23,5 @@
                 </li>
             </ul>
         </li>
-    </ul>
+    </ul> -->
 </div>

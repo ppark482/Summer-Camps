@@ -15,15 +15,14 @@ var env             = process.env.NODE_ENV = process.env.NODE_ENV || 'developmen
 var config          = require('./config/config');
 var auth            = require('./config/middlewares/authorization');
 var db              = require('./config/sequelize');
-var passport        = require('./config/passport');
 
 var app = express();
 
 //Initialize Express
-require('./config/express')(app, passport);
+require('./config/express')(app);
 
 //Initialize Routes
-require('./config/routes').init(app, passport, auth);
+require('./config/routes').init(app, auth);
 
 //Start the app by listening on <port>
 var port = process.env.PORT || config.port;

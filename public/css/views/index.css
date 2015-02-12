@@ -1,0 +1,25 @@
+#top-image {
+	width: 100%;
+	color: white;
+	padding: 0;
+}
+#top-image > img {
+	position: relative;
+	z-index: 0;
+	height: 500px;
+	width: 100%
+}
+#top-image > p {
+  position: relative;
+  background: #ebebeb;
+  z-index: 1;
+}
+
+#intro-section {
+	background-color: white;
+	width: 50%;
+	margin: 0 auto;
+}
+#intro-section > h1 {
+	padding: 15px 0;
+}
