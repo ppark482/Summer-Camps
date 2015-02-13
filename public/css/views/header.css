@@ -2,7 +2,7 @@
 	position: fixed;
 	width: 100%;
 	z-index: 9999;
-	background-color: #FDFDFD;
+	background-color: HSLA(185, 58%, 30%, 1);
 	top: 0;
 	height: 80px;
 	box-shadow: 2px 1px 1px #AAADAE;
