@@ -1,11 +1,20 @@
+body {
+    background-color: #E67B78 !important;
+}
 .navbar .nav>li>a.brand {
     padding-left:20px;
     margin-left:0
 }
 
 .content {
-    margin-top:50px;
-    width:100%
+    width:100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.interior-content {
+    margin-top: 82px;
+    background-color: #FDFDFD;
 }
 
 footer {

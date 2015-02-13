@@ -7,17 +7,20 @@
 		</div>
 
 		<section id="intro-section">
-			<h1>{{title}}</h1>
-			<button ng-click="">SUMMER CAMP?</button>
-			<button ng-click="">PARTY PLANNER?</button>
+			<h1>
+				<span>Welcome</span> to The Palm Beach Post's <span>Summer Camp</span> and <span>Birthday Party Planning Directory</span>
+			</h1>
+			<button ng-click="amSummerCamp()">SUMMER CAMP?</button>
+			<button ng-click="amPartyPlanner()">PARTY PLANNER?</button>
 		</section>
 
 		<section id="intro-search-form">
-			<form ng-submit="">
-				<button type="radio">Summer Camps</button>
-				<button type="radio">Birthday Party Planners</button>
-				<input placeholder="Keyword">
-				<input placeholder="Your Zip Code">
+			<form ng-submit="searchCamps(query)">
+				<button type="button" ng-model="query.type" btn-radio="1">Summer Camps</button>
+				<button type="button" ng-model="query.type" btn-radio="2">Birthday Party Planners</button>
+				<input type="text" class="search-input" ng-model="query.keyword" placeholder="Keyword">
+				<input type="text" class="search-input" ng-model="query.zipcode" placeholder="Your Zip Code">
+				<button>Search</button>
 			</form>
 		</section>
 

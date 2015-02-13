@@ -5,7 +5,7 @@
   "private": false,
   "author": "Paul Park",
   "repository": {
-    "type": "git",
+    "type": "git"
   },
   "engines": {
     "node": "0.10.x",
