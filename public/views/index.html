@@ -10,14 +10,29 @@
 			<h1>
 				<span>Welcome</span> to The Palm Beach Post's <span>Summer Camp</span> and <span>Birthday Party Planning Directory</span>
 			</h1>
-			<button ng-click="amSummerCamp()">SUMMER CAMP?</button>
-			<button ng-click="amPartyPlanner()">PARTY PLANNER?</button>
+			<ul class="intro-cards">
+				<!-- <button ng-click="amSummerCamp()">SUMMER CAMP?</button> -->
+				<!-- <button ng-click="amPartyPlanner()">PARTY PLANNER?</button> -->
+				<li class="camp-card">
+					<h3>Summer Camp</h3>
+					<p>Are you representing a summer camp? Click here!</p>
+				</li>
+				<li class="party-card">
+					<h3>Party Planner</h3>
+					<p>Are you a birthday party planner? Go here!</p>
+				</li>
+			</ul>
 		</section>
 
 		<section id="intro-search-form">
-			<form ng-submit="searchCamps(query)">
-				<button type="button" ng-model="query.type" btn-radio="1">Summer Camps</button>
-				<button type="button" ng-model="query.type" btn-radio="2">Birthday Party Planners</button>
+			<form ng-submit="searchCamps(query)"> 
+				<h3>search</h3>
+				<input type="radio" class="css-checkbox" id="radioCamp" ng-model="query.type" btn-radio="1" value="all" name="chooseOne" checked>
+				<label class="css-label" for="radioCamp">Summer Camps</label>
+				
+				<input type="radio" class="css-checkbox" id="radioParty" ng-model="query.type" btn-radio="2" name="chooseOne" value="false">
+				<label class="css-label" for="radioParty">Birthday Party Planners</label>
+				
 				<input type="text" class="search-input" ng-model="query.keyword" placeholder="Keyword">
 				<input type="text" class="search-input" ng-model="query.zipcode" placeholder="Your Zip Code">
 				<button>Search</button>

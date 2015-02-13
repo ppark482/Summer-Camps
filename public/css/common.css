@@ -1,5 +1,8 @@
 body {
-    /*background-color: #E67B78 !important;*/
+}
+
+ul, li {
+    list-style-type: none;
 }
 .navbar .nav>li>a.brand {
     padding-left:20px;
@@ -16,6 +19,44 @@ body {
     margin-top: 82px;
     background-color: #FDFDFD;
 }
+
+/*
+=============== Custom Radio Boxes
+*/
+
+input[type=radio].css-checkbox {
+    position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0; border:0;
+}
+
+input[type=radio].css-checkbox + label.css-label {
+    padding-left: 37px;
+    height: 32px; 
+    display: inline-block;
+    line-height: 32px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    font-size: 20px;
+    vertical-align: middle;
+    cursor: pointer;
+
+}
+
+input[type=radio].css-checkbox:checked + label.css-label {
+    background-position: 0 -32px;
+}
+label.css-label {
+    background-image:url(http://csscheckbox.com/checkboxes/u/csscheckbox_68cdf3627a9c0f8d6b268e0110645b10.png);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/*
+=============== Footer
+*/
 
 footer {
     position:fixed;

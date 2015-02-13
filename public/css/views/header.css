@@ -2,9 +2,9 @@
 	position: fixed;
 	width: 100%;
 	z-index: 9999;
-	background-color: HSLA(185, 58%, 30%, 1);
+	background-color: HSLA(19, 100%, 70%, .9);
 	top: 0;
-	height: 80px;
+	height: 82px;
 	box-shadow: 2px 1px 1px #AAADAE;
 }
 
