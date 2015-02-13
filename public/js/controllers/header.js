@@ -3,7 +3,7 @@ angular.module('mean.system').controller('HeaderController', ['$scope', 'Global'
 
     $scope.menu = [{
     	
-    }]
+    }];
 
     // $scope.menu = [{
     //     "title": "Articles",

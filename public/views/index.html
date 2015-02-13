@@ -11,13 +11,19 @@
 				are you ready for summer?
 			</h1>
 			<ul class="intro-cards">
-				<li class="camp-card">
+				<li class="camp-card" ng-click="amSummerCamp()">
 					<h3>Summer Camp</h3>
+					<div class="img-container">
+						<img src="../img/icons/camping-grey.png">
+					</div>
 					<p>Summer Camp Representatives:</p>
 					<p>Click here!</p>
 				</li>
-				<li class="party-card">
+				<li class="party-card" ng-click="amPartyPlanner()">
 					<h3>Party Planner</h3>
+					<div class="img-container">
+						<img src="../img/icons/birthday-cake-grey.png">
+					</div>
 					<p>Birthday/Party Planners:</p>
 					<p>Click Here!</p>
 				</li>
@@ -37,6 +43,11 @@
 				<input type="text" class="search-input" ng-model="query.zipcode" placeholder="Your Zip Code">
 				<button>Search</button>
 			</form>
+		</section>
+
+		<section id="magazine">
+			<a href="http://tablet.olivesoftware.com/Olive/Tablet/PBPSummerCampGuide/">
+			<img src="http://cmgdtcpxaajcapp.cmg.int/camps/static/images/magazine.jpg"></a>
 		</section>
 
 	</section> <!-- end section

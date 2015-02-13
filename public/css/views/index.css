@@ -92,6 +92,14 @@
 	padding-bottom: 2px;
 	padding-left: 5%;
 }
+.img-container {
+	text-align: center;
+	padding: 15px 0;
+}
+.img-container > img, .img-container > img {
+	width: 15%;
+	margin: 0 auto;
+}
 .camp-card > h3 {
 	padding-left: 10px;
 	border-bottom: 4px solid HSLA(185, 58%, 30%, 1);
@@ -109,7 +117,7 @@
 #intro-search-form {
 	width: 100%;
 	min-height: 250px;
-	padding: 40px 0;
+	padding: 40px 0 0 0;
 	margin: 0 auto;
 }
 
@@ -117,9 +125,10 @@ form {
 	/* Accounts for the padding - may not work in all browsers */
 	width: 100% - 10px;
 	margin: 0 auto;
-	padding: 25px 0 0 0;
-	border: 1px solid HSLA(19, 100%, 70%, 1);
+	padding: 25px 0 35px 0;
+	/*border: 1px solid HSLA(19, 100%, 70%, 1);*/
 	border-radius: 2px;
+	background-color: HSLA(47, 73%, 85%, .2);
 }
 form > h3 {
 	/* Accounts for the padding - may not work in all browsers */
@@ -157,7 +166,7 @@ input[type=button], input[type=button]:hover {
 }
 
 .search-input {
-	width: 90%;
+	width: 95%;
 	margin: 0 auto;
 	height: 32px;
 	/*background: url('../../img/icons/search-icon.png') no-repeat 5px 5px;*/
@@ -165,9 +174,17 @@ input[type=button], input[type=button]:hover {
 .search-input[type=text] {
 	padding: 0 0 0 5px;
 	height: 50px;
+	font-size: 18px;
 }
 
 #intro-search-form input[type=text] {
 	border: 1px solid #d0d0d0;
 	background-color: #fcfcfc;
+}
+
+#magazine {
+	width: 100%;
+}
+#magazine > a > img {
+	width: 100%;
 }
