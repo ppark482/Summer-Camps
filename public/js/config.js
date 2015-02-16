@@ -1,5 +1,5 @@
 //Setting up route
-angular.module('mean').config(['$routeProvider',
+angular.module('summerCamps').config(['$routeProvider',
     function($routeProvider) {
         $routeProvider.
         when('/summercampinfo', {
@@ -18,7 +18,7 @@ angular.module('mean').config(['$routeProvider',
 ]);
 
 //Setting HTML5 Location Mode
-angular.module('mean').config(['$locationProvider',
+angular.module('summerCamps').config(['$locationProvider',
     function($locationProvider) {
         $locationProvider.hashPrefix("!");
     }
