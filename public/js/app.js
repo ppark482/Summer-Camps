@@ -1,4 +1,3 @@
-angular.module('summerCamps', ['ngCookies', 'ngResource', 'ngRoute', 'ui.bootstrap', 'ui.route', 'mean.system', 'mean.articles', 'duParallax']);
+angular.module('summerCamps', ['ngCookies', 'ngResource', 'ngRoute', 'ui.bootstrap', 'ui.route', 'camp.system']);
 
-angular.module('mean.system', []);
-angular.module('mean.articles', []);
+angular.module('camp.system', []);

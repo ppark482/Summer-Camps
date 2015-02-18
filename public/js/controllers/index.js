@@ -1,4 +1,4 @@
-angular.module('mean.system')
+angular.module('camp.system')
 	.controller('IndexController', ['$scope', 'Global', 'parallaxHelper', '$location', 
 		function ($scope, Global, parallaxHelper, $location) {
 	    $scope.global = Global;
