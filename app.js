@@ -13,8 +13,8 @@ var fs          = require('fs');
 
 var env             = process.env.NODE_ENV = process.env.NODE_ENV || 'development';
 var config          = require('./config/config');
-var auth            = require('./config/middlewares/authorization');
-var db              = require('./config/sequelize');
+// var auth            = require('./config/middlewares/authorization');
+// var db              = require('./config/sequelize');
 
 var app = express();
 
@@ -22,7 +22,7 @@ var app = express();
 require('./config/express')(app);
 
 //Initialize Routes
-require('./config/routes').init(app, auth);
+require('./config/routes').init(app);
 
 //Start the app by listening on <port>
 var port = process.env.PORT || config.port;

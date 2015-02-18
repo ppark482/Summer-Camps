@@ -1,6 +1,6 @@
 angular.module('camp.system')
-	.controller('IndexController', ['$scope', 'Global', 'parallaxHelper', '$location', 
-		function ($scope, Global, parallaxHelper, $location) {
+	.controller('IndexController', ['$scope', 'Global', '$location', 
+		function ($scope, Global, $location) {
 	    $scope.global = Global;
 
 	    $scope.amSummerCamp = function () {
