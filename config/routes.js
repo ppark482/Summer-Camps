@@ -7,6 +7,8 @@ exports.init = function(app, auth) {
 
     console.log('Initializing Routes');
 
+    // Get camps
+    // app.get('/summercamps', )
     // User Routes
     // app.get('/signin', users.signin);
     // app.get('/signup', users.signup);
