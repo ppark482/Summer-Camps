@@ -31,10 +31,10 @@
 <!-- ===== Form To Query DataBase for Camps or Parties ===== -->
 		<form ng-submit="searchCamps(query)" class="form-group"> 
 			<h3>Search</h3>
-			<select class="form-control">
-				<option ng-model="query.type">Summer Camps</option>
-				<option ng-model="query.type">Birthday Party Planners</option>
+			<select ng-model="selectedOption"
+							ng-options="opt as opt.label for opt in options">
 			</select>
+
 			<div class="form-group">
 				<input class="input-sizing" type="text" ng-model="query.keyword" placeholder="Keyword">
 				<input class="input-sizing" type="text" ng-model="query.zipcode" placeholder="Your Zip Code">

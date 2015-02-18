@@ -13,9 +13,20 @@ angular.module('camp.system')
 	    	$location.path('/partyplannerinfo');
 	    };
 
+	    // Form: Dropdown box options
+	    $scope.options = [
+	    	{ label: 'Summer Camps', value: 'Summer Camps' },
+	    	{ label: 'Party Planner', value: 'Party Planner' }
+	    ];
+
+	    $scope.selectedOption = $scope.options[0];
+
 	    $scope.searchCamps = function (query) {
-	    	// query returns object with user choices, keyword and zipcode
+	    	// query returns object with keyword and zipcode
 	    	// to query database for results
+	    	console.log(query);
+	    	// $scope.selectedOption.value is the user's choice in dropdown
+	    	console.log($scope.selectedOption.value);
 
 	    };
 		}

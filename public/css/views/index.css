@@ -68,16 +68,17 @@
 
 .camp-card, .party-card {
 	width: 100%;
+	max-width: 360px;
 	height: 200px;
 	margin: 0 auto;
 	padding: 15px 0;
 	cursor: pointer;
 	border-radius: 2px;
+	border: 1px solid HSLA(0, 0%, 66%, 0.3);
 	/*display: inline-block;*/
 	color: HSLA(183, 55%, 20%, 1);
 	background-color: white;
 	border-radius: 2px;
-	border: none;
 	/*box-shadow: 1px 1px 1px HSLA(19, 100%, 70%, .3);*/
 	transition: all .5s;
 	-webkit-transition: all .5s;
@@ -96,7 +97,7 @@
 	background-color: HSLA(19, 100%, 70%, .1);;
 }
 .camp-card > p, .party-card > p {
-	font-size: 20px;
+	font-size: 15px;
 	padding-bottom: 2px;
 	padding-left: 5%;
 	text-align: center;
@@ -110,11 +111,13 @@
 	margin: 0 auto;
 }
 .camp-card > h3 {
-	padding-left: 10px;
+	padding-left: 15px;
+	padding-bottom: 8px;
 	border-bottom: 4px solid HSLA(185, 58%, 30%, 1);
 }
 .party-card > h3 {
-	padding-left: 10px;
+	padding-left: 15px;
+	padding-bottom: 8px;
 	border-bottom: 4px solid HSLA(19, 100%, 70%, 1);
 }
 
