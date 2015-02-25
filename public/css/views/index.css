@@ -39,30 +39,33 @@
 	width: 100%;
 	margin: 0 auto;
 	padding: 0;
-	/*background-color: HSLA(47, 73%, 85%, .2);*/
 }
 
 .intro-welcome {
 	width: 100%;
-	height: 150px;
+	height: 200px;
 	margin: 35px 0;
 }
 
 .intro-welcome > h1 {
+	font-family: 'Dosis', sans-serif;
 	width: 100%;
 	margin: 5px 0;
 	text-align: center;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #E5E5E5;
 }
 .intro-welcome > p {
 	margin: 15px 0;
 	text-align: center;
 }
 
-.sample-camp-container {
-	background-color: HSLA(19, 100%, 70%, 1);
+.sample-camp-container:first-child {
+	margin-right: 4%;
 }
 .sample-camp {
-	height: 66px;
+	height: 90px;
+	width: 100%;
 }
 
 .intro-cards {

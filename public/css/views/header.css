@@ -1,4 +1,4 @@
-.fixed-nav-bar {
+/*.fixed-nav-bar {
 	position: fixed;
 	width: 100%;
 	z-index: 9999;
@@ -7,7 +7,7 @@
 	left: 0;
 	height: 70px;
 	box-shadow: 2px 1px 1px #AAADAE;
-}
+}*/
 
 .custom-nav {
 	height: 200px;
