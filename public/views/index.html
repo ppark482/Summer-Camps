@@ -1,15 +1,23 @@
-<!-- CSS controlled by css/views/index.css -->
-
 	<section data-ng-controller="IndexController">
 			<div class="image-container">
 				<div class="image-overlay"></div>
-				<img id="top-image" src="../../img/campfire-bg.jpg" alt="" />
+				<!-- <img id="top-image" src="../../img/campfire-bg.jpg" alt="" /> -->
+				<img id="top-image" src="../../img/camp-scuba.jpg" alt="" />
 			</div>
 
 		<section id="intro-section">
-			<h1>
-				ready for summer?
-			</h1>
+			<div class="intro-welcome">
+				<h1>ready for summer?</h1>
+				<p>The Palm Beach Post's Summer Camp Directory</p>
+				<ul class="row-fluid sample-camp-container">
+					<li class="span2"><img class="sample-camp" src="../../img/1.jpg"></li>
+					<li class="span2"><img class="sample-camp" src="../../img/2.jpg"></li>
+					<li class="span2"><img class="sample-camp" src="../../img/3.jpg"></li>
+					<li class="span2"><img class="sample-camp" src="../../img/4.jpg"></li>
+					<li class="span2"><img class="sample-camp" src="../../img/5.jpg"></li>
+					<li class=""><img class="sample-camp" src="../../img/6.jpg"></li>
+				</ul>
+			</div>
 			<ul class="intro-cards">
 				<li class="camp-card" ng-click="amSummerCamp()">
 					<h3>Summer Camp</h3>

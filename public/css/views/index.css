@@ -41,11 +41,28 @@
 	padding: 0;
 	/*background-color: HSLA(47, 73%, 85%, .2);*/
 }
-#intro-section > h1 {
+
+.intro-welcome {
 	width: 100%;
 	height: 150px;
-	margin: 0;
-	padding: 40px 0 0 0;
+	margin: 35px 0;
+}
+
+.intro-welcome > h1 {
+	width: 100%;
+	margin: 5px 0;
+	text-align: center;
+}
+.intro-welcome > p {
+	margin: 15px 0;
+	text-align: center;
+}
+
+.sample-camp-container {
+	background-color: HSLA(19, 100%, 70%, 1);
+}
+.sample-camp {
+	height: 66px;
 }
 
 .intro-cards {
@@ -94,7 +111,7 @@
 .party-card:hover {
 	/*box-shadow: 1px 2px 7px HSLA(185, 58%, 30%, .8);*/
 	/*border: 1px solid HSLA(19, 100%, 70%, 1);*/
-	background-color: HSLA(19, 100%, 70%, .1);;
+	background-color: HSLA(19, 100%, 70%, .1);
 }
 .camp-card > p, .party-card > p {
 	font-size: 15px;
