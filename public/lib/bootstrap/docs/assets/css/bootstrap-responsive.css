@@ -801,8 +801,6 @@
 
 @media (max-width: 767px) {
   body {
-    /*padding-right: 20px;
-    padding-left: 20px;*/
     padding: 0;
   }
   .navbar-fixed-top,
@@ -841,9 +839,6 @@
   .uneditable-input[class*="span"],
   .row-fluid [class*="span"] {
     display: block;
-/*    float: none;
-    width: 100%;*/
-    margin-left: 0;
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
