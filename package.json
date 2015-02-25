@@ -1,8 +1,8 @@
 {
-  "name": "Summer Camps",
-  "description": "M*EAN - A Modern Stack: MySQL, ExpressJS, AngularJS, NodeJS. (BONUS: Passport User Support).",
+  "name": "Summer-Camps",
+  "description": "",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "author": "Paul Park",
   "repository": {
     "type": "git"

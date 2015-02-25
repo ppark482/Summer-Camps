@@ -29,7 +29,7 @@
 		</section>
 
 <!-- ===== Form To Query DataBase for Camps or Parties ===== -->
-		<form ng-submit="searchCamps(query)" class="form-group"> 
+		<form ng-submit="searchCamps(query)" class="form-group search-form"> 
 			<h3>Search</h3>
 			<select ng-model="selectedOption"
 							ng-options="opt as opt.label for opt in options">
@@ -38,8 +38,9 @@
 			<div class="form-group">
 				<input class="input-sizing" type="text" ng-model="query.keyword" placeholder="Keyword">
 				<input class="input-sizing" type="text" ng-model="query.zipcode" placeholder="Your Zip Code">
-				<button class="submit-button" type="submit">Search</button>
 			</div>
+			<button class="submit-button" type="submit">Search</button>
+			
 		</form>
 
 		<section id="magazine">

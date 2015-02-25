@@ -125,12 +125,17 @@
 /*
 =============== Search Form 
 */
+.search-form {
+	padding: 3%;
+}
 
 .input-sizing[type=text] {
 	height: 35px;
 	width: 100%;
 	font-size: 16px;
 	border-radius: 1px;
+	margin: 5px 0;
+	padding: 10px 0 10px 5px;
 }
 
 .submit-button[type=submit] {

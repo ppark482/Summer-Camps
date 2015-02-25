@@ -1,12 +1,14 @@
 body {
+
 }
+
 
 ul, li {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
-.navbar .nav>li>a.brand {
+.navbar .nav > li > a.brand {
     padding-left:20px;
     margin-left:0
 }
